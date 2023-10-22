@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 4px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.main {
+    background-color: rgb(173, 207, 180);
+    width: 90%;
+    margin:auto;
+    margin-top: 10px; 
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-name {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    padding: 2px;
+    font-weight: bold;
+    width: calc(100% - 4px);
+    margin-top: 0px;
+}
+
+.item img {
+    width: 75%;
+    height: auto;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    width:70%;
+    text-align: center;
+    padding: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.btn:hover {
+    background-color: rgb(139, 139, 139);
+}
+
+.cart {
+    text-decoration: none;
+    color:white
+}
+
+.cart:hover {
+    color: rgb(165, 240, 104)
+}
+
+table, tr {
+    width: 80%;
+    border: 1px solid black;
+}
+
+th{
+    text-align: left;
+    border: 1px solid black;;
+}
+
+td img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.mbtn{
+    background-color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+td p{
+    margin: 3px;
+    padding: 5px
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    width: 100%;
+}
+
+.infoMsg{
+    width: 100%;
+    color: green;
+    font-size: 1.3rem;
+    text-align: center;
+}
